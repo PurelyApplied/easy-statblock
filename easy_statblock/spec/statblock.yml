@@ -11,7 +11,7 @@ statblock:
   armor class: int
     required: true
     provided by: str
-      default: None
+      required: true
   hit points: int
     required: true
     hit dice: str
@@ -23,17 +23,11 @@ statblock:
     required: true
   # Triangle break
   saving throws: TuplesOrProficiencyList
-    default: None
   skills: TuplesOrProficiencyList
-    default: None
   damage resistences: DamageType
-    default: None
   damage immunities: DamageType
-    default: None
   condition immunities: Condition
-    default: None
   senses: SenseTupleList
-    default: None
   passive perception: int  # Listed under senses in statblock
     default: ((computed 10 + WIS modifier))
   lanuages: str
@@ -44,7 +38,6 @@ statblock:
   traits: []
     default: None
   spellcasting: []
-    default: None
   # Actions header break
   actions: ActionType
   # Reactions header break
@@ -52,6 +45,7 @@ statblock:
   # Legendary Actions header break
   legendary actions:
     count: int
+      required: true
     description: >
       The ((name)) can take ((legendary actions.count)) legendary actions,
       choosing from the options below.  Only one legendary action option
