@@ -1,0 +1,60 @@
+statblock:
+  name: str
+    required: true
+  size: SizeType
+    default: Medium
+  type: TypeOrSubtype
+    required: true
+  alignment: AlignmentType
+    required: true
+  # Triangle break
+  armor class: int
+    required: true
+    provided by: str
+      default: None
+  hit points: int
+    required: true
+    hit dice: str
+      required: true
+  speed: []
+    default: 30 ft.
+  # Triangle break
+  attributes: AttributeListOrDict
+    required: true
+  # Triangle break
+  saving throws: TuplesOrProficiencyList
+    default: None
+  skills: TuplesOrProficiencyList
+    default: None
+  damage resistences: DamageType
+    default: None
+  damage immunities: DamageType
+    default: None
+  condition immunities: Condition
+    default: None
+  senses: SenseTupleList
+    default: None
+  passive perception: int  # Listed under senses in statblock
+    default: ((computed 10 + WIS modifier))
+  lanuages: str
+    default: --
+  challenge: int
+    required: true
+  # Triangle break
+  traits: []
+    default: None
+  spellcasting: []
+    default: None
+  # Actions header break
+  actions: ActionType
+  # Reactions header break
+  reactions: ActionType
+  # Legendary Actions header break
+  legendary actions:
+    count: int
+    description: >
+      The ((name)) can take ((legendary actions.count)) legendary actions,
+      choosing from the options below.  Only one legendary action option
+      can be used at a time and only at the end of another creature's utnr.
+      The ((name)) regains spent legendary actions at the start of its turn.
+    actions: ActionType
