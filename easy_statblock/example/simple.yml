@@ -1,0 +1,52 @@
+creature:
+- name: Balor
+  size: Huge
+  type: fiend (demon)
+  alignment: chaotic evil
+  armor class: 19
+  armor type: natural armor
+  hit points: 262
+  hit dice: 21d12 + 126
+  speed:
+  - 40 ft
+  - fly 80 ft
+  stats: [26, 15, 22, 20, 16, 22]
+  saving throws: [Str]
+  damage resistances: []
+  damage immunities: []
+  condition immunities: []
+  senses:
+    - passive Perception 15
+    - truesight 120 ft
+  languages:
+    - Abyssal
+    - telepathy 120 ft
+  challenge: 19    # TODO: Infer XP
+  ## Triangle separator
+  features:
+    - Death Throes: >
+        When the balor dies, it explodes, and each creature within 30 feet of it must make a DC 20 Dexterity
+        saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one.
+        Some other words.  Bepp boop.
+    - Fire Aura: >
+        At the start of each of the balor's truns, each creature within 5 feet
+        et cetera
+    - Magic Resistance:  Some stuff
+    - Magic Weapons: The balor's weapon attacks are magical
+  actions:
+    - Multiattack: the balor makes two attacks
+    - Longsword:
+      type: Melee Weapon Attack
+      to hit: +14
+      reach: 10 ft
+      target: one target
+      on hit: 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage
+    - Whip:
+      type: Melee Weapon Attack
+      to hit: +14
+      reach: 30 ft
+      target: one target
+      on hit: Some stuff
+    - Teleport: >
+        The balor magically teleports, along with any equipment it is wearing or carrying,
+        up to 120 feet to an unoccupied space it can see
