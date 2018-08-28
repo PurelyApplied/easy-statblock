@@ -1,4 +1,5 @@
-{% if style == "wide" -%}
+{% macro gmbinder_creature_statblock(creature) -%}
+{% if creature.meta.style == "wide" -%}
 ___
 {% endif -%}
 ___
@@ -50,3 +51,4 @@ ___
 > ***Ability Description.*** *Attack Style:* Attack Bonus to hit, Reach/Range, one target. *Hit:* Damage Damage Type damage
 >
 > ***General Ability Description.*** General Attack Description
+{%- endmacro -%}
