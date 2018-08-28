@@ -18,7 +18,7 @@ def main(template_file, vars_file):
         loader=PackageLoader('easy_statblock', r'C:\Users\admin\PycharmProjects\stat_block_parser\easy_statblock\templates'),
         autoescape=select_autoescape(['html', 'xml'])
     )
-    template = env.get_template('gmbinder.monster.md')
+    template = env.get_template('gmbinder.md.jinja2')
     these_variables = {'creature': variables['creature'][0]}
 
     dir_path = os.path.dirname(os.path.realpath(__file__))

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Statblock example</title>
+
+    <link rel="import" href="../valloric_src/top-stats.html">
+    <link rel="import" href="../valloric_src/creature-heading.html">
+    <link rel="import" href="../valloric_src/abilities-block.html">
+    <link rel="import" href="../valloric_src/property-block.html">
+    <link rel="import" href="../valloric_src/property-line.html">
+    <link rel="import" href="../valloric_src/stat-block.html">
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      stat-block {
+        /* A bit of margin for presentation purposes, to show off the drop
+        shadow. */
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+    </style>
+</head>
+<body>
+<!-- TODO Register valloric filter -->
+{{ creature | valloric }}
+</body>
+</html>

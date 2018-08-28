@@ -1,4 +1,4 @@
-statblock:
+creature:
   name: str
     required: true
   size: SizeType
@@ -10,8 +10,8 @@ statblock:
   # Triangle break
   armor class: int
     required: true
-    provided by: str
-      required: true
+  armor provided by: str
+    required: true
   hit points: int
     required: true
     hit dice: str
