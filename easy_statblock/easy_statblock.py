@@ -9,26 +9,19 @@ from jinja2 import Environment, FileSystemLoader
 logging.getLogger().setLevel(logging.DEBUG)
 
 
-def main(template_file, vars_file):
+def main(template_name, vars_file):
     logging.info("Enter main.")
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-
     with open(vars_file, 'r') as yaml_vars:
         variables = yaml.load(yaml_vars)
 
     these_variables = {'creature': variables['creature'][0],
                        'meta': {'wide': False}}
 
-    # print(basic(f'creature{os.sep}gmbinder.md.jinja2', these_variables))
-    # print(basic(os.path.join('creature', 'creature-gmbinder.md.jinja2'), these_variables))
-    rendered = basic(f'creature-valloric.html.jinja2', these_variables, 'creature')
-
+    rendered = basic(template_name, these_variables)
     print(rendered)
-    # with open(dir_path + os.sep + "output", 'w') as out:
-    #     out.write(template.render(these_variables))
 
 
-def basic(template_target, variables, subdir):
+def basic(template_target, variables):
     templates_dir = os.path.join(os.path.dirname(__file__), 'templates')
     env = Environment(
         loader=FileSystemLoader(templates_dir),

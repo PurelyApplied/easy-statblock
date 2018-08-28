@@ -10,9 +10,9 @@ from http.server import test, SimpleHTTPRequestHandler
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
-    template_file = r"C:\Users\admin\PycharmProjects\stat_block_parser\easy_statblock\templates\gmbinder.monster.md"
+    template_name = r"creature-gmbinder.md.jinja2"
     balor_vars_file = r"C:\Users\admin\PycharmProjects\stat_block_parser\easy_statblock\example\simple.yml"
-    main(template_file, balor_vars_file)
+    main(template_name, balor_vars_file)
 
     # handler_class = partial(SimpleHTTPRequestHandler,
     #                         directory=os.getcwd())
