@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from django.views import generic
 from django.views.generic import TemplateView
 
+from easy_statblock import *
 from .models import Creature
 
 

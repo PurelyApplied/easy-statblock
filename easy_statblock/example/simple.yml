@@ -10,7 +10,7 @@ creature:
   speed:
   - 40 ft
   - fly 80 ft
-  stats: [26, 15, 22, 20, 16, 22]
+  attributes: [26, 15, 22, 20, 16, 22]
   saving throws: [Str]
   damage resistances: []
   damage immunities: []

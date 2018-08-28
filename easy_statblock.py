@@ -14,8 +14,8 @@ if __name__ == '__main__':
     balor_vars_file = r"C:\Users\admin\PycharmProjects\stat_block_parser\easy_statblock\example\simple.yml"
     main(template_file, balor_vars_file)
 
-    handler_class = partial(SimpleHTTPRequestHandler,
-                            directory=os.getcwd())
-    print("Go do http://127.0.0.1:8080/")
-    test(HandlerClass=handler_class, port=8080, bind='')
-    input("Press ENTER to quit.")
+    # handler_class = partial(SimpleHTTPRequestHandler,
+    #                         directory=os.getcwd())
+    # print("Go do http://127.0.0.1:8080/")
+    # test(HandlerClass=handler_class, port=8080, bind='')
+    # input("Press ENTER to quit.")
