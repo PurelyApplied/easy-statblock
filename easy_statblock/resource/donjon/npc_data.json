@@ -1,0 +1,302 @@
+{
+  "Cultist": {
+    "page": "mm 345",
+    "name": "Cultist",
+    "size": "Medium",
+    "environment": {
+      "Urban": "yes"
+    },
+    "challenge": "1/8",
+    "xp": "25",
+    "alignment": "Any non-good",
+    "type": "Humanoid"
+  },
+  "Mage": {
+    "environment": {
+      "Urban": "yes"
+    },
+    "xp": "2300",
+    "page": "mm 347",
+    "challenge": "6",
+    "name": "Mage",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Gladiator": {
+    "page": "mm 346",
+    "name": "Gladiator",
+    "size": "Medium",
+    "environment": {
+      "Urban": "yes"
+    },
+    "challenge": "5",
+    "xp": "1800",
+    "alignment": "Any",
+    "type": "Humanoid"
+  },
+  "Spy": {
+    "environment": {
+      "Urban": "yes"
+    },
+    "xp": "200",
+    "page": "mm 349",
+    "challenge": "1",
+    "name": "Spy",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Cult Fanatic": {
+    "page": "mm 345",
+    "name": "Cult Fanatic",
+    "size": "Medium",
+    "environment": {
+      "Urban": "yes"
+    },
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "Any non-good",
+    "type": "Humanoid"
+  },
+  "Noble": {
+    "environment": {
+      "Urban": "yes"
+    },
+    "xp": "25",
+    "page": "mm 348",
+    "challenge": "1/8",
+    "name": "Noble",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Tribal Warrior": {
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes"
+    },
+    "xp": "25",
+    "page": "mm 350",
+    "challenge": "1/8",
+    "name": "Tribal Warrior",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Veteran": {
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Urban": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes",
+      "Mountain": "yes",
+      "Underdark": "yes"
+    },
+    "xp": "700",
+    "page": "mm 350",
+    "challenge": "3",
+    "name": "Veteran",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Guard": {
+    "environment": {
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Urban": "yes",
+      "Desert": "yes",
+      "Coastal": "yes"
+    },
+    "xp": "25",
+    "page": "mm 347",
+    "challenge": "1/8",
+    "name": "Guard",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Acolyte": {
+    "page": "mm 342",
+    "name": "Acolyte",
+    "size": "Medium",
+    "environment": {
+      "Urban": "yes"
+    },
+    "challenge": "1/4",
+    "xp": "50",
+    "alignment": "Any",
+    "type": "Humanoid"
+  },
+  "Bandit": {
+    "page": "mm 343",
+    "name": "Bandit",
+    "size": "Medium",
+    "environment": {
+      "Forest": "yes",
+      "Hill": "yes",
+      "Urban": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes"
+    },
+    "challenge": "1/8",
+    "xp": "25",
+    "alignment": "Any non-lawful",
+    "type": "Humanoid"
+  },
+  "Bandit Captain": {
+    "page": "mm 344",
+    "name": "Bandit Captain",
+    "size": "Medium",
+    "environment": {
+      "Forest": "yes",
+      "Hill": "yes",
+      "Urban": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes"
+    },
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "Any non-lawful",
+    "type": "Humanoid"
+  },
+  "Berserker": {
+    "page": "mm 344",
+    "name": "Berserker",
+    "size": "Medium",
+    "environment": {
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes"
+    },
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "Any chaotic",
+    "type": "Humanoid"
+  },
+  "Commoner": {
+    "page": "mm 344",
+    "name": "Commoner",
+    "size": "Medium",
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Urban": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes"
+    },
+    "challenge": 0,
+    "xp": "10",
+    "alignment": "Any",
+    "type": "Humanoid"
+  },
+  "Knight": {
+    "environment": {
+      "Urban": "yes"
+    },
+    "xp": "700",
+    "page": "mm 347",
+    "challenge": "3",
+    "name": "Knight",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Scout": {
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes"
+    },
+    "xp": "100",
+    "page": "mm 349",
+    "challenge": "1/2",
+    "name": "Scout",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Druid": {
+    "page": "mm 346",
+    "name": "Druid",
+    "size": "Medium",
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes"
+    },
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "Any",
+    "type": "Humanoid"
+  },
+  "Thug": {
+    "environment": {
+      "Urban": "yes"
+    },
+    "xp": "100",
+    "page": "mm 350",
+    "challenge": "1/2",
+    "name": "Thug",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Priest": {
+    "environment": {
+      "Urban": "yes"
+    },
+    "xp": "450",
+    "page": "mm 348",
+    "challenge": "2",
+    "name": "Priest",
+    "type": "Humanoid",
+    "size": "Medium"
+  },
+  "Assassin": {
+    "page": "mm 343",
+    "name": "Assassin",
+    "size": "Medium",
+    "environment": {
+      "Urban": "yes"
+    },
+    "challenge": "8",
+    "xp": "3900",
+    "alignment": "Any non-good",
+    "type": "Humanoid"
+  },
+  "Archmage": {
+    "page": "mm 342",
+    "name": "Archmage",
+    "size": "Medium",
+    "environment": {
+      "Urban": "yes"
+    },
+    "challenge": "12",
+    "xp": "8400",
+    "alignment": "Any",
+    "type": "Humanoid"
+  }
+};
