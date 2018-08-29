@@ -6,6 +6,7 @@ from functools import partial
 
 from easy_statblock import main
 from http.server import test, SimpleHTTPRequestHandler
+from easy_statblock.resource import *
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -19,3 +20,5 @@ if __name__ == '__main__':
     # print("Go do http://127.0.0.1:8080/")
     # test(HandlerClass=handler_class, port=8080, bind='')
     # input("Press ENTER to quit.")
+
+    print("hello")
